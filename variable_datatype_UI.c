@@ -7,12 +7,13 @@ int main(){
 	char grade;
 	char name[20];
 	
+	//Taking User Inputs
 	printf("Enter your age ");
 	scanf("%d", &age);
 	printf("Enter your Marks ");
 	scanf("%f", &marks);
 	printf("Enter your Grade ");
-	scanf(" %c", &grade);
+	scanf(" %c", &grade); //Space before %c
 	printf("Enter your Name ");
 	scanf("%s",name);
 	

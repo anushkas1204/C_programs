@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main(){
+	
+	int num1,num2;
+	
+	//take user input
+	
+	printf("Enter First Number (num1) : \n");
+	scanf("%d",&num1);
+	printf("Enter Second Number (num2) : \n");
+	scanf("%d",&num2);
+	
+	//Arithmatic operations
+	
+	printf("Addition = %d \n" ,num1 + num2);
+	printf("Substraction = %d \n" , num1 - num2);
+	printf("Multiplication = %d \n" , num1 * num2);
+	printf("Division = %d \n", num1 / num2);
+	printf("Modulas = %d \n" , num1 % num2);
+	
+	return 0;
+}
