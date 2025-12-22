@@ -4,20 +4,26 @@ int main(){
 	
 	int num;
 	
-	//user input
-	
+	//user inputs
 	printf("Enter Number \n");
 	scanf("%d", &num);
-	///num = num + 5
+
+	//assignment operator
 	num += 5;
 	printf("After num += %d \n",num);
+
 	num -= 5;
 	printf("After num -= %d \n",num);
+
 	num %= 5;
-	printf("After num %= %d \n",num);
+	printf("After num %%= %d \n",num); // Note: %% prints %
+
 	num *= 5;   
     printf("After num *= %d \n", num);
+
 	num /= 5;   
-    printf("After num \= %d \n", num);
+    printf("After num /= %d \n", num);
+
 	return 0;
 }
+

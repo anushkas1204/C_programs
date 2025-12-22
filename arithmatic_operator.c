@@ -17,7 +17,7 @@ int main(){
 	printf("Substraction = %d \n" , num1 - num2);
 	printf("Multiplication = %d \n" , num1 * num2);
 	printf("Division = %d \n", num1 / num2);
-	printf("Modulas = %d \n" , num1 % num2);
+	printf("Modulus = %d \n" , num1 % num2);
 	
 	return 0;
 }

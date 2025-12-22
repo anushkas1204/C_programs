@@ -14,9 +14,9 @@ int main(){
 	//relational operators
 	
 	printf("num1 == num2 = %d \n", num1==num2);
-	printf("num2 != num2 = %d \n", num1 != num2);
-	printf("num2 > num2 = %d \n", num1 > num2);
-	printf("num2 < num2 = %d \n", num1 < num2);
-	printf("num2 >= num2 = %d \n", num1 >= num2);
-	printf("num2 <= num2 = %d \n", num1 <= num2);
+	printf("num1 != num2 = %d \n", num1 != num2);
+	printf("num1 > num2 = %d \n", num1 > num2);
+	printf("num1 < num2 = %d \n", num1 < num2);
+	printf("num1 >= num2 = %d \n", num1 >= num2);
+	printf("num1 <= num2 = %d \n", num1 <= num2);
 }
