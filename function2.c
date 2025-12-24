@@ -1,4 +1,4 @@
-//Function With Parameter nut No return
+//Function With Parameter but No return
 
 #include<stdio.h>
 int i;
@@ -8,7 +8,7 @@ void printTable(int num){
 	}
 }
 void areaReactangle(int length, int width){
-	printf("Area = %d", length * width);
+	printf("Area of Reactangle = %d", length * width);
 }
 int main(){
 	int number;
