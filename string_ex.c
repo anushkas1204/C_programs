@@ -90,7 +90,6 @@ int main(){
 	printf("\nenter the word to check pallindrome = ");
 	scanf("%s",str6);
 	strcpy(str7,str6);
-	printf("\nCopied String = %s\n",str7);
 	strrev(str7);
 	if(strcmp(str6,str7) == 0){
 			printf("pallindrome string\n");
